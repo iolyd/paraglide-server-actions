@@ -18,7 +18,8 @@
       }
     ],
     "paths": {
-      "@src/*": ["./src/*"]
+      "@lib/*": ["./src/lib/*"],
+			"@translations/*": ["./src/lib/i18n/generated/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
