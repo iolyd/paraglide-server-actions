@@ -20,7 +20,7 @@ export default async function RootLayout({
             {LANG_NAMES[lang]}
 						</h1>
 						<nav className="flex flex-row gap-2">
-							{availableLanguageTags.map(tag => (<Link href={tag} hrefLang={tag} key={tag} className="px-3 py-2 bg-slate-800 rounded-md">{m.go_to({lang: tag})}</Link>))}
+							{availableLanguageTags.map(tag => (<Link href={tag} hrefLang={tag} key={tag} className="px-3 py-2 bg-slate-800 rounded-md">{m.go_to({lang: LANG_NAMES[tag]})}</Link>))}
 						</nav>
           </header>
           {children}

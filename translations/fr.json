@@ -1,6 +1,6 @@
 {
 	"hello": "Bonjour",
-	"go_to": "Aller à {lang}",
+	"go_to": "Aller à «{lang}»",
 	"cortados_like": "J'aime les cortados",
 	"call_form_action": "Exécuter l'action du formulaire"
 }

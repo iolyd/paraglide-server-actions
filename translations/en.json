@@ -1,6 +1,6 @@
 {
   "hello": "Hello",
-	"go_to": "Go to {lang}",
+	"go_to": "Go to \"{lang}\"",
   "cortados_like": "I like cortados",
   "call_form_action": "Call form action"
 }
