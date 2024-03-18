@@ -10,9 +10,5 @@ export function getHeadersLang<H extends Headers>(headers: H) {
 }
 
 export function languageTagServer() {
-	const header = headers().get(LANG_HEADER_NAME);
-	if (isAvailableLanguageTag(header)) {
-		return header;
-	}
-	return sourceLanguageTag;
+	return getHeadersLang(headers()) ?? sourceLanguageTag;
 }
